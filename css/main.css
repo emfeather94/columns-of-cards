@@ -16,11 +16,27 @@ body {
 
 img {
   display: block;
+  width: 100%;
+}
+
+.quest img {
   width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin: 0 auto 1.5rem;
+}
+
+.dinosaur img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.dragon img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.laser img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
 }
 
 h2 {
@@ -73,19 +89,23 @@ cite {
 .quest {
   background-color: #e2e2e2;
   padding: .75em;
+  width: 25%;
 }
 
 .dinosaur {
   background-color: #ccc;
   padding: .75em;
+  width: 25%;
 }
 
 .dragon {
   background-color: #aaa;
   padding: .75em;
+  width: 25%;
 }
 
 .laser {
   background-color: #999;
   padding: .75em;
+  width: 25%;
 }
